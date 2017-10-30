@@ -112,6 +112,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Robot Code" Type="Folder" URL="../Robot Code">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Climb Command Cluster.ctl" Type="VI" URL="../Common Code/Climb Command Cluster.ctl"/>
 		<Item Name="Dashboard Packet.ctl" Type="VI" URL="../Common Code/Dashboard Packet.ctl"/>
 		<Item Name="Intake Command Cluster.ctl" Type="VI" URL="../Common Code/Intake Command Cluster.ctl"/>
 		<Item Name="Intake Commands.ctl" Type="VI" URL="../Common Code/Intake Commands.ctl"/>
