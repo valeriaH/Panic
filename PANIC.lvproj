@@ -192,7 +192,6 @@
 				<Item Name="WPI_CameraParse URL.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraParse URL.vi"/>
 				<Item Name="WPI_CameraTranslate Percent Codes.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraTranslate Percent Codes.vi"/>
 				<Item Name="WPI_DashboardGet All Users Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Dashboard/WPI_DashboardGet All Users Directory.vi"/>
-				<Item Name="WPI_DashboardRetrieveStatusInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Dashboard/WPI_DashboardRetrieveStatusInfo.vi"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="WPI_DriverStationDigitalData.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationDigitalData.ctl"/>
 			</Item>
@@ -202,9 +201,13 @@
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Dashboard Hijack Data.ctl" Type="VI" URL="../Dashboard/624WPI/Dashboard Hijack Data.ctl"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="Robot Name.ctl" Type="VI" URL="../Common Code/Robot Name.ctl"/>
+			<Item Name="Climb Status Cluster.ctl" Type="VI" URL="../Common Code/Climb Status Cluster.ctl"/>
+			<Item Name="Intake Status Cluster.ctl" Type="VI" URL="../Common Code/Intake Status Cluster.ctl"/>
+			<Item Name="Dash Display Data.ctl" Type="VI" URL="../Common Code/Dash Display Data.ctl"/>
+			<Item Name="Intake Commands.ctl" Type="VI" URL="../Common Code/Intake Commands.ctl"/>
+			<Item Name="Intake Mode.ctl" Type="VI" URL="../Common Code/Intake Mode.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -292,11 +295,14 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Climb Command Cluster.ctl" Type="VI" URL="../Common Code/Climb Command Cluster.ctl"/>
+		<Item Name="Climb Status Cluster.ctl" Type="VI" URL="../Common Code/Climb Status Cluster.ctl"/>
+		<Item Name="Dash Display Data.ctl" Type="VI" URL="../Common Code/Dash Display Data.ctl"/>
 		<Item Name="Dashboard Packet.ctl" Type="VI" URL="../Common Code/Dashboard Packet.ctl"/>
 		<Item Name="Intake Command Cluster.ctl" Type="VI" URL="../Common Code/Intake Command Cluster.ctl"/>
 		<Item Name="Intake Commands.ctl" Type="VI" URL="../Common Code/Intake Commands.ctl"/>
 		<Item Name="Intake Mode.ctl" Type="VI" URL="../Common Code/Intake Mode.ctl"/>
 		<Item Name="Intake Presets.ctl" Type="VI" URL="../Common Code/Intake Presets.ctl"/>
+		<Item Name="Intake Status Cluster.ctl" Type="VI" URL="../Common Code/Intake Status Cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
