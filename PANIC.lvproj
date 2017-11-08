@@ -208,6 +208,8 @@
 			<Item Name="Dash Display Data.ctl" Type="VI" URL="../Common Code/Dash Display Data.ctl"/>
 			<Item Name="Intake Commands.ctl" Type="VI" URL="../Common Code/Intake Commands.ctl"/>
 			<Item Name="Intake Mode.ctl" Type="VI" URL="../Common Code/Intake Mode.ctl"/>
+			<Item Name="Intake Presets.ctl" Type="VI" URL="../Common Code/Intake Presets.ctl"/>
+			<Item Name="Dashboard Control Data.ctl" Type="VI" URL="../Common Code/Dashboard Control Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -297,7 +299,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Climb Command Cluster.ctl" Type="VI" URL="../Common Code/Climb Command Cluster.ctl"/>
 		<Item Name="Climb Status Cluster.ctl" Type="VI" URL="../Common Code/Climb Status Cluster.ctl"/>
 		<Item Name="Dash Display Data.ctl" Type="VI" URL="../Common Code/Dash Display Data.ctl"/>
-		<Item Name="Dashboard Packet.ctl" Type="VI" URL="../Common Code/Dashboard Packet.ctl"/>
+		<Item Name="Dashboard Control Data.ctl" Type="VI" URL="../Common Code/Dashboard Control Data.ctl"/>
 		<Item Name="Intake Command Cluster.ctl" Type="VI" URL="../Common Code/Intake Command Cluster.ctl"/>
 		<Item Name="Intake Commands.ctl" Type="VI" URL="../Common Code/Intake Commands.ctl"/>
 		<Item Name="Intake Mode.ctl" Type="VI" URL="../Common Code/Intake Mode.ctl"/>
