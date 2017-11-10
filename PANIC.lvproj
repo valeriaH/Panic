@@ -211,6 +211,8 @@
 			<Item Name="Intake Mode.ctl" Type="VI" URL="../Robot Code/Common Code/Intake Mode.ctl"/>
 			<Item Name="Dash Display Data.ctl" Type="VI" URL="../Robot Code/Common Code/Dash Display Data.ctl"/>
 			<Item Name="Drivetrain Presets.ctl" Type="VI" URL="../Robot Code/Common Code/Drivetrain Presets.ctl"/>
+			<Item Name="Drivetrain Status Cluster.ctl" Type="VI" URL="../Robot Code/Common Code/Drivetrain Status Cluster.ctl"/>
+			<Item Name="Drive Mode.ctl" Type="VI" URL="../Robot Code/Common Code/Drive Mode.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
